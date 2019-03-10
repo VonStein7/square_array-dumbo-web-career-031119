@@ -5,4 +5,6 @@ def square_array(array)
   array.each |element|
     square_nums.push(element * element)
   end
+  
+  square_nums
 end
