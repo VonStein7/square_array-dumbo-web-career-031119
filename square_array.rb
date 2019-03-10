@@ -3,6 +3,6 @@ def square_array(array)
   square_nums = []
   
   array.each |element|
-    square_nums << element *= element
+    square_nums.push(element * element)
   end
 end
